@@ -11,6 +11,8 @@ var shortCountry;
 document.querySelector('.btnSubmit')
   .addEventListener('click', getCountryInfo)
 
+
+
 async function getCountryInfo() {
 
   txtCountry = document.querySelector(".searchCountry").value;
@@ -39,9 +41,11 @@ async function getCountryInfo() {
     let arrBorderingCountries = [];
     arrBorderingCountries = json[0].borders;
 
+    borderingList.innerHTML ="";
     console.log(arrBorderingCountries);
     console.log(arrBorderingCountries.length);
 
+  
     for (let k = 0; k < arrBorderingCountries.length; k++){
      
       shortCountry = arrBorderingCountries[k];
