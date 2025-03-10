@@ -1,0 +1,8 @@
+.CountriesParent{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.borderingNames{
+    padding-left: 0;
+}
