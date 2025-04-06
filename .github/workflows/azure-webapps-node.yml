@@ -23,7 +23,7 @@ on:
   workflow_dispatch:
 
 env:
-  AZURE_WEBAPP_NAME: countries    # set this to your application's name
+  AZURE_WEBAPP_NAME: Countries    # set this to your application's name
   NODE_VERSION: '18.x'                # set this to the node version to use
 
 permissions:
